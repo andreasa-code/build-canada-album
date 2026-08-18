@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Build Canada: The Album by Ajay & Friends — an open-source music project with seven songs inspired by seven Build Canada memos." />
+  <meta name="theme-color" content="#071c2c" />
+  <meta property="og:title" content="Build Canada: The Album — Ajay & Friends" />
+  <meta property="og:description" content="An open-source music project. Seven songs. Seven memos. One country worth building." />
+  <meta property="og:type" content="music.album" />
+  <meta property="og:image" content="assets/social-preview.jpg" />
+  <title>Build Canada: The Album — Ajay & Friends</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" aria-label="Primary navigation">
+    <a class="wordmark" href="#top" aria-label="Build Canada: The Album home">
+      <span class="wordmark-mark">BC</span>
+      <span>Build Canada: The Album</span>
+    </a>
+    <nav>
+      <a href="#record">Record</a>
+      <a href="#v2">V2</a>
+      <a href="#lyrics">Lyrics</a>
+      <a href="#chords">Guitar Chords</a>
+      <a href="#memos">Memos</a>
+      <a href="#photos">Photos</a>
+    </nav>
+    <div class="header-streaming" aria-label="Listen to the album">
+      <span class="header-listen-label">Listen</span>
+      <div class="header-platforms" id="header-platform-links"></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Seven songs · Seven memos</p>
+        <h1><span>Build</span><span>Canada</span></h1>
+        <p class="hero-kicker">The Album</p>
+        <p class="hero-deck">Policy ideas turned into songs, made for a country that can still choose to build things.</p>
+        <p class="hero-open-source">An Open Source Music Project</p>
+        <p class="hero-open-source-note">All music on this album is licensed under Creative Commons Attribution 4.0 International and may be used by anyone, for any purpose, including commercial use, at no charge, provided appropriate credit is given.</p>
+        <div class="hero-actions">
+          <div class="platform-links platform-links-hero" id="hero-platform-links" aria-label="Listen to the album"></div>
+          <a class="button button-ghost" href="#memos">Read the memos <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+
+      <figure class="hero-art reveal" data-delay="1">
+        <div class="cover-frame">
+          <img src="assets/album-cover.jpg" alt="Album cover showing a guitar case on a dock beside a lake." />
+        </div>
+        <figcaption>
+          <span>Stoney Lake · Ontario</span>
+          <span>LP · 07 TRACKS</span>
+        </figcaption>
+      </figure>
+
+      <div class="hero-index" aria-hidden="true">
+        <span>01</span><span>/</span><span>07</span>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>BUILD IT HERE</span><i>✦</i><span>PAPER TRAILS</span><i>✦</i><span>ONE YEAR IN THE WEATHER</span><i>✦</i><span>MOONSHOT</span><i>✦</i><span>MAKE IT BETTER</span><i>✦</i><span>BRANCH PLANT</span><i>✦</i><span>SOUND IT OUT</span><i>✦</i>
+        <span>BUILD IT HERE</span><i>✦</i><span>PAPER TRAILS</span><i>✦</i><span>ONE YEAR IN THE WEATHER</span><i>✦</i><span>MOONSHOT</span><i>✦</i><span>MAKE IT BETTER</span><i>✦</i><span>BRANCH PLANT</span><i>✦</i><span>SOUND IT OUT</span><i>✦</i>
+      </div>
+    </div>
+
+    <section class="record section" id="record">
+      <div class="section-heading reveal">
+        <p class="eyebrow dark">The record</p>
+        <h2>Turn it up.<br />Then build.</h2>
+        <p>Each song begins with a Build Canada memo. Open the source idea, read the lyrics, or jump straight to the track.</p>
+      </div>
+
+      <div class="record-layout">
+        <div class="tracklist" id="tracklist" aria-label="Album tracklist"></div>
+        <aside class="album-player reveal" data-delay="1">
+          <p class="player-label">Play the full album</p>
+          <iframe
+            id="spotify-embed"
+            title="Build Canada: The Album on Spotify"
+            src=""
+            width="100%"
+            height="352"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"></iframe>
+          <div class="platform-links platform-links-player" id="player-platform-links" aria-label="Listen to the full album"></div>
+          <p class="player-note">The player and artwork load from Spotify.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="photo-break" aria-label="Recording retreat photograph">
+      <img src="assets/sunset-session.jpg" alt="A group on a lakeside deck as the sun sets over the water." loading="lazy" />
+      <div class="photo-break-copy reveal">
+        <p>A lake and a studio</p>
+        <span>Pine Island Studio · Stoney Lake · Ontario · 2026</span>
+      </div>
+    </section>
+
+    <section class="v2-callout" id="v2">
+      <div class="v2-inner section">
+        <div class="v2-heading reveal">
+          <div>
+            <p class="eyebrow dark">Call for Canadian musicians</p>
+            <p class="v2-label">Build Canada: The Album (v2)</p>
+            <h2>Help build<br />version two.</h2>
+          </div>
+          <div class="v2-heading-copy">
+            <p class="v2-intro">Musicians across Canada: we’d love to hear what you do with these songs.</p>
+            <p><em>Build Canada: The Album</em> began as an experiment. I wrote the lyrics based on memos written by some of Canada’s greatest modern builders, then used AI tools to create the music and produce the first versions of the songs. That first album is a draft—a starting point.</p>
+          </div>
+        </div>
+
+        <div class="v2-body">
+          <div class="v2-story reveal">
+            <h3>From an AI draft to a Canadian-made record.</h3>
+            <p>After AI-generating the album, we recorded the first song with Canadian musicians: Chris Hadfield (vocals, guitar), Noel Webb (drums, overall direction on the arrangement), Dan Debow (bass, lead guitar), Mike Serbinis (guitar, backup vocals), Sonia Sennik (keyboard, backup vocals), myself (guitar, backup vocals), and Felipe Sena (sound engineer).</p>
+            <p class="v2-emphasis">Now we want to make <em>Build Canada: The Album (v2)</em> entirely with Canadian musicians.</p>
+            <p>We’re inviting musicians, singers, bands, producers, and ensembles from every part of Canada to record their own versions of the songs.</p>
+            <p>You can cover a song as it appears on the original album, or take it somewhere completely new. Change the arrangement. Change the instrumentation. Change the tempo, genre, mood, or feel. Make it folk, rock, hip-hop, country, electronic, punk, jazz, classical—or something we haven’t imagined.</p>
+            <p>You may also write your own song inspired by one of the other <a href="https://www.buildcanada.com/memos" target="_blank" rel="noreferrer">Build Canada memos ↗</a>.</p>
+            <p>The goal is not to reproduce the AI-generated recordings. It is to see what happens when Canadian artists make these songs their own.</p>
+            <p>We may include more than one interpretation of the same song on the new album.</p>
+          </div>
+
+          <aside class="v2-participate reveal" data-delay="1">
+            <p class="v2-number" aria-hidden="true">V2</p>
+            <p class="eyebrow light">How to participate</p>
+            <h3>Pick a song.<br />Make it yours.</h3>
+            <p>Choose one or more songs from <em>Build Canada: The Album</em> and record your own version. Send the WAV file and full credit information to:</p>
+            <a class="v2-email" href="mailto:BuildCanadaTheAlbum@gmail.com?subject=Build%20Canada%3A%20The%20Album%20(v2)%20submission">BuildCanadaTheAlbum@gmail.com</a>
+
+            <dl class="v2-dates">
+              <div>
+                <dt>Submission deadline</dt>
+                <dd>November 30, 2026</dd>
+              </div>
+              <div>
+                <dt>Artists informed</dt>
+                <dd>December 15, 2026</dd>
+              </div>
+              <div>
+                <dt>Album release</dt>
+                <dd>January 15, 2027</dd>
+              </div>
+            </dl>
+
+            <p class="v2-human-only"><em>Build Canada: The Album (v2)</em> will contain human-only performances and recordings of the songs.</p>
+            <p class="v2-fine-print">We’ll choose which submissions are included and inform artists by December 15, 2026. No feedback on selection decisions will be provided.</p>
+          </aside>
+        </div>
+
+        <div class="v2-open-source reveal">
+          <div class="v2-open-source-title">
+            <p class="eyebrow dark">Open-source music</p>
+            <h3>Let the songs travel, change and inspire new versions.</h3>
+          </div>
+          <div class="v2-open-source-copy">
+            <p>The album will be released under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">Creative Commons Attribution 4.0 International licence (CC BY 4.0) ↗</a>.</p>
+            <p>That means anyone may copy, share, perform, remix, adapt, and build upon the work—including for commercial purposes—provided they give appropriate attribution to the artists.</p>
+            <p>If you’re a musician anywhere in Canada—from a basement studio to a conservatory, from a small-town band to an established recording artist—we invite you to be part of it.</p>
+            <p class="v2-final-line">Pick a song. Make it yours. Record it. Send it in by November 30. Let’s build the next version of the album—and Canada—together.</p>
+            <p class="v2-signoff">Ajay</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lyrics section" id="lyrics">
+      <div class="lyrics-intro reveal">
+        <p class="eyebrow light">The words</p>
+        <h2>Lyrics and<br />Source Ideas</h2>
+        <p>Select a track. The lyrics stay on this page; the source memo opens separately.</p>
+      </div>
+
+      <div class="lyrics-shell reveal" data-delay="1">
+        <div class="lyrics-nav" id="lyrics-nav" role="tablist" aria-label="Choose a song"></div>
+        <article class="lyrics-panel" aria-live="polite">
+          <div class="lyrics-meta">
+            <div>
+              <span id="lyrics-number">01</span>
+              <h3 id="lyrics-title">Build It Here</h3>
+              <p id="lyrics-topic">Inspired by a memo on defence.</p>
+            </div>
+            <div class="lyrics-links">
+              <div class="platform-links platform-links-lyrics" id="lyrics-platform-links" aria-label="Listen to the album"></div>
+              <a id="lyrics-memo" href="#" target="_blank" rel="noreferrer">Read memo ↗</a>
+            </div>
+          </div>
+          <div class="lyrics-text" id="lyrics-text"></div>
+          <p class="lyrics-license" id="lyrics-license"></p>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="chords section" id="chords">
+      <div class="section-heading reveal">
+        <p class="eyebrow dark">Play the songs</p>
+        <h2>Guitar<br />chords.</h2>
+        <p>Open the chord sheets for five songs. Chords for <em>Build It Here</em> and <em>Make It Better</em> are coming soon.</p>
+      </div>
+
+      <div class="chord-grid" aria-label="Guitar chord sheets">
+        <article class="chord-card chord-card-coming reveal">
+          <div class="chord-card-copy">
+            <div class="chord-card-top"><span>01</span><span>Coming soon</span></div>
+            <h3>Build It Here</h3>
+            <p>Guitar chord sheet in progress.</p>
+            <div class="chord-card-bottom"><span>Not yet available</span><span aria-hidden="true">—</span></div>
+          </div>
+          <div class="chord-sheet-placeholder" aria-hidden="true"><span>01</span></div>
+        </article>
+
+        <a class="chord-card reveal" href="assets/chords/paper-trails.pdf" target="_blank" rel="noreferrer" aria-label="Open the Paper Trails guitar chord sheet PDF">
+          <div class="chord-card-copy">
+            <div class="chord-card-top"><span>02</span><span>Chord sheet · PDF</span></div>
+            <h3>Paper Trails</h3>
+            <p>Capo 1 · two-page chart</p>
+            <div class="chord-card-bottom"><span>Open chord sheet</span><span aria-hidden="true">↗</span></div>
+          </div>
+          <div class="chord-sheet-preview">
+            <img src="assets/chords/paper-trails-page-1.webp" alt="First-page preview of the Paper Trails guitar chord sheet." loading="lazy" />
+          </div>
+        </a>
+
+        <a class="chord-card reveal" href="assets/chords/one-year-in-the-weather.pdf" target="_blank" rel="noreferrer" aria-label="Open the One Year in the Weather guitar chord sheet PDF">
+          <div class="chord-card-copy">
+            <div class="chord-card-top"><span>03</span><span>Chord sheet · PDF</span></div>
+            <h3>One Year in the Weather</h3>
+            <p>Capo 1 · two-page chart</p>
+            <div class="chord-card-bottom"><span>Open chord sheet</span><span aria-hidden="true">↗</span></div>
+          </div>
+          <div class="chord-sheet-preview">
+            <img src="assets/chords/one-year-in-the-weather-page-1.webp" alt="First-page preview of the One Year in the Weather guitar chord sheet." loading="lazy" />
+          </div>
+        </a>
+
+        <a class="chord-card reveal" href="assets/chords/moonshot.pdf" target="_blank" rel="noreferrer" aria-label="Open the Moonshot guitar chord sheet PDF">
+          <div class="chord-card-copy">
+            <div class="chord-card-top"><span>04</span><span>Chord sheet · PDF</span></div>
+            <h3>Moonshot</h3>
+            <p>Capo 1 · two-page chart</p>
+            <div class="chord-card-bottom"><span>Open chord sheet</span><span aria-hidden="true">↗</span></div>
+          </div>
+          <div class="chord-sheet-preview">
+            <img src="assets/chords/moonshot-page-1.webp" alt="First-page preview of the Moonshot guitar chord sheet." loading="lazy" />
+          </div>
+        </a>
+
+        <article class="chord-card chord-card-coming reveal">
+          <div class="chord-card-copy">
+            <div class="chord-card-top"><span>05</span><span>Coming soon</span></div>
+            <h3>Make It Better</h3>
+            <p>Guitar chord sheet in progress.</p>
+            <div class="chord-card-bottom"><span>Not yet available</span><span aria-hidden="true">—</span></div>
+          </div>
+          <div class="chord-sheet-placeholder" aria-hidden="true"><span>05</span></div>
+        </article>
+
+        <a class="chord-card reveal" href="assets/chords/branch-plant.pdf" target="_blank" rel="noreferrer" aria-label="Open the Branch Plant guitar chord sheet PDF">
+          <div class="chord-card-copy">
+            <div class="chord-card-top"><span>06</span><span>Chord sheet · PDF</span></div>
+            <h3>Branch Plant</h3>
+            <p>Two-page chart</p>
+            <div class="chord-card-bottom"><span>Open chord sheet</span><span aria-hidden="true">↗</span></div>
+          </div>
+          <div class="chord-sheet-preview">
+            <img src="assets/chords/branch-plant-page-1.webp" alt="First-page preview of the Branch Plant guitar chord sheet." loading="lazy" />
+          </div>
+        </a>
+
+        <a class="chord-card reveal" href="assets/chords/sound-it-out.pdf" target="_blank" rel="noreferrer" aria-label="Open the Sound It Out guitar chord sheet PDF">
+          <div class="chord-card-copy">
+            <div class="chord-card-top"><span>07</span><span>Chord sheet · PDF</span></div>
+            <h3>Sound It Out</h3>
+            <p>Two-page chart</p>
+            <div class="chord-card-bottom"><span>Open chord sheet</span><span aria-hidden="true">↗</span></div>
+          </div>
+          <div class="chord-sheet-preview">
+            <img src="assets/chords/sound-it-out-page-1.webp" alt="First-page preview of the Sound It Out guitar chord sheet." loading="lazy" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="memos section" id="memos">
+      <div class="section-heading reveal">
+        <p class="eyebrow dark">The source material</p>
+        <h2>Before each song,<br />there was a memo.</h2>
+        <p>The album treats policy writing as raw creative material: arguments, images and ambitions translated into melody.</p>
+      </div>
+      <div class="memo-grid" id="memo-grid"></div>
+    </section>
+
+    <section class="photos section" id="photos">
+      <div class="photos-heading reveal">
+        <p class="eyebrow dark">From the sessions</p>
+        <h2>Recording the First Song<br />on the Album</h2>
+      </div>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-image" aria-hidden="true"></div>
+      <div class="closing-copy reveal">
+        <h2>Listen and<br />Build</h2>
+        <div class="platform-links" id="platform-links" aria-label="Listen to the album"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Build Canada: The Album · Ajay &amp; Friends</p>
+    <p>Seven songs inspired by seven memos.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
